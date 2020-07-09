@@ -1,0 +1,5 @@
+all: RISCV
+RISCV:
+	gcc -o RISCV.cpp
+clean:
+	rm -rf RISCV
